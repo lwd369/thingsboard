@@ -205,7 +205,8 @@
     "twilio-account-sid-required": "Twilio 帐户的 SID 必填",
     "twilio-account-token": "Twilio帐户令牌",
     "twilio-account-token-required": "Twilio 帐户令牌必填",
-    "user-lockout-notification-email": "如果用户帐户锁定，请发送通知到电子邮件"
+    "user-lockout-notification-email": "如果用户帐户锁定，请发送通知到电子邮件",
+    "home-settings": "首页设置"
   },
   "aggregation": {
     "aggregation": "聚合",
@@ -771,7 +772,9 @@
     "view-dashboards": "查看仪表板",
     "widget-file": "部件文件",
     "widget-import-missing-aliases-title": "配置导入的窗口部件使用的别名",
-    "widgets-margins": "部件间边距"
+    "widgets-margins": "部件间边距",
+    "home-dashboard": "首页 dashboard",
+    "home-dashboard-hide-toolbar": "隐藏首页 dashboard工具栏"
   },
   "datakey": {
     "advanced": "高级",
