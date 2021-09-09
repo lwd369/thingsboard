@@ -28,6 +28,7 @@
     <inceptionYear>2016</inceptionYear>
 
     <properties>
+        <xiaojia.thingsboard.version>3.2.2.xj.3</xiaojia.thingsboard.version>
         <main.dir>${basedir}</main.dir>
         <pkg.disabled>true</pkg.disabled>
         <pkg.process-resources.phase>none</pkg.process-resources.phase>
@@ -466,7 +467,7 @@
                                 <args>
                                     <arg>-PpackagingDir=${main.dir}/packaging</arg>
                                     <arg>-PprojectBuildDir=${basedir}/target</arg>
-                                    <arg>-PprojectVersion=${project.version}</arg>
+                                    <arg>-PprojectVersion=${xiaojia.thingsboard.version}</arg>
                                     <arg>
                                         -PmainJar=${project.build.directory}/${project.build.finalName}-boot.${project.packaging}
                                     </arg>
